@@ -1,5 +1,4 @@
-install packages `npm i`
-you may get some errors while installing, but app has been tested to work on 7.2.2021
+Install packages `npm i`. You may get some errors while installing, but app has been tested to work on 7.2.2021
 
 To start the mock backend run command 
 `npm run mockserver`
@@ -7,12 +6,12 @@ To start the mock backend run command
 To start the development frontend server run command 
 `npm run devserver`
 
-to watch file changes and build automatically: `npm run watch`
+To watch file changes and build automatically: `npm run watch`
 
-open localhost:9081 -> Ready to develop.
+Open localhost:9081 -> Ready to develop.
 Use the provided `src/index.html`, `src/index.js` and `src/style.scss` as base or start from scratch.
 
-The mock backed will serve static files from ./dist and it has an API end-point `http://localhost:9080/api/solr/:page`
+The mock backend will serve static files from ./dist and it has an API end-point `http://localhost:9080/api/solr/:page`
 The API gives valid responses with page numbers 0, 1, and 2.
 The attributes of interest on the response are:
 - response.numFound
