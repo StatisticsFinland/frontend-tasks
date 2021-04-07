@@ -34,5 +34,5 @@ All data that is visible in the mockups should be visible in the page.
 *note.* desktop1.PNG has a control with a label 'Näytä tuloksia sivulla', its implementation is not expected.
 
 ### Testing:
-Check package.json scripts for smoke and unit tests.
+Check package.json scripts for existing smoke and unit tests.
 Make sure that these tests succeed.
